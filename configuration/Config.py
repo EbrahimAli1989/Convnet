@@ -1,0 +1,19 @@
+class ConFig:
+    #rootdir = 'C:\\Users\\nehar\\OneDrive\\Desktop\\Carleton\\Electrical infrastructure\\electrical infrastrucure\\code\\Benchmark'
+    destdir = 'C:\\Users\\nehar\\OneDrive\\Desktop\\Carleton\\Electrical infrastructure\\electrical infrastrucure\\code\\result'
+    #test=False
+    #testN=False
+    rootdir = 'C:\\Users\\nehar\\OneDrive\\Desktop\\Carleton\\Electrical infrastructure\\electrical infrastrucure\\code\\result'
+    savedir = 'C:\\Users\\nehar\\OneDrive\\Desktop\\Carleton\\Electrical infrastructure\\electrical infrastrucure\\code\\output'
+    block_size = 8
+    epochs = 100
+    batch_size = 16
+    iter = 1000
+    npoints = 8192
+    threads = 1
+    nocolor = True
+    test = False
+    savepts = True
+    test_step = 0.5
+    model = "SegBig"
+    drop = 0.5
